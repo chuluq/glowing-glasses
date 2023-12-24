@@ -11,6 +11,8 @@ import {
   Instagram,
   Github,
   Send,
+  Award,
+  Headphones,
 } from "lucide-react";
 
 export type Icon = LucideIcon;
@@ -27,4 +29,6 @@ export const Icons = {
   instagram: Instagram,
   github: Github,
   send: Send,
+  experience: Award,
+  support: Headphones,
 };

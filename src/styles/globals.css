@@ -130,6 +130,7 @@ img {
 .section__title,
 .section__subtitle {
   text-align: center;
+  text-transform: capitalize;
 }
 
 /*=============== LAYOUT ===============*/
