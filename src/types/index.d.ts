@@ -5,3 +5,14 @@ export type Menu = {
   url: string;
   icon: keyof typeof Icons;
 };
+
+export type SiteConfig = {
+  name: string;
+  description: string;
+  socials: {
+    instagram: string;
+    github: string;
+    whatsapp?: string;
+    twitter?: string;
+  };
+};

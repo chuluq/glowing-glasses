@@ -8,6 +8,9 @@ import {
   Briefcase,
   Image,
   SendHorizonal,
+  Instagram,
+  Github,
+  Send,
 } from "lucide-react";
 
 export type Icon = LucideIcon;
@@ -21,4 +24,7 @@ export const Icons = {
   service: Briefcase,
   portfolio: Image,
   contact: SendHorizonal,
+  instagram: Instagram,
+  github: Github,
+  send: Send,
 };
