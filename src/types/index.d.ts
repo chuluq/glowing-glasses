@@ -1,0 +1,7 @@
+import { Icons } from "@/components/icons";
+
+export type Menu = {
+  title: string;
+  url: string;
+  icon: keyof typeof Icons;
+};
