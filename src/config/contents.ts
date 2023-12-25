@@ -48,7 +48,7 @@ export const skillInfo: Content[] = [
     icon: "redux",
   },
   {
-    title: "Tailwind",
+    title: "Tailwind CSS",
     icon: "tailwind",
   },
   {
