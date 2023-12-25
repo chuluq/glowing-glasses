@@ -102,15 +102,17 @@
   }
 }
 
-.home__scroll-name {
+.scrollName {
   color: var(--title-color);
   font-weight: var(--font-medium);
   margin-right: var(--mb-0-25);
   margin-left: 2px;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
-.home__scroll-arrow {
-  font-size: 1.25rem;
+.scrollArrow {
   color: var(--title-color);
 }
 

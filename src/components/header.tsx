@@ -8,6 +8,15 @@ import { Icons } from "@/components/icons";
 import styles from "@/styles/header.module.css";
 
 export const Header = () => {
+  window.addEventListener("scroll", () => {
+    const header = document.querySelector(".header");
+    if (scrollY >= 200) {
+      header?.classList.add("scroll-header");
+    } else {
+      header?.classList.remove("scroll-header");
+    }
+  });
+
   const [isShowMenu, setShowMenu] = useState(false);
   const [activeMenu, setActiveMenu] = useState("#home");
 

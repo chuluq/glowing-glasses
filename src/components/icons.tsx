@@ -14,6 +14,7 @@ import {
   Award,
   Headphones,
   LucideProps,
+  ArrowDown,
 } from "lucide-react";
 
 export type Icon = LucideIcon;
@@ -32,6 +33,7 @@ export const Icons = {
   send: Send,
   experience: Award,
   support: Headphones,
+  arrowDown: ArrowDown,
   html: ({ ...props }: LucideProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>{"HTML5"}</title>
