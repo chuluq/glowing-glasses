@@ -19,6 +19,6 @@ export type SiteConfig = {
 
 export type Content = {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   icon?: keyof typeof Icons;
 };
