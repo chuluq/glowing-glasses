@@ -17,9 +17,9 @@ export const menus: Menu[] = [
     icon: "skill",
   },
   {
-    title: "services",
-    url: "#services",
-    icon: "service",
+    title: "qualification",
+    url: "#qualification",
+    icon: "education",
   },
   {
     title: "portfolio",

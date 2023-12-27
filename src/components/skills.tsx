@@ -1,6 +1,6 @@
 import { skillInfo } from "@/config/contents";
+import { Icons } from "@/components/icons";
 import styles from "@/styles/skills.module.css";
-import { Icons } from "./icons";
 
 export const Skills = () => {
   return (

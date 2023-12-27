@@ -22,3 +22,9 @@ export type Content = {
   subtitle?: string;
   icon?: keyof typeof Icons;
 };
+
+export type Qualification = {
+  title: string;
+  subtitle: string;
+  date: string;
+};
