@@ -17,6 +17,7 @@ import {
   ArrowDown,
   GraduationCap,
   CalendarDays,
+  ArrowRight,
 } from "lucide-react";
 
 export type Icon = LucideIcon;
@@ -36,6 +37,7 @@ export const Icons = {
   experience: Award,
   support: Headphones,
   arrowDown: ArrowDown,
+  arrowRight: ArrowRight,
   education: GraduationCap,
   calendar: CalendarDays,
   html: ({ ...props }: LucideProps) => (

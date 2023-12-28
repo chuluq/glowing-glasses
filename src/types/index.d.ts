@@ -1,3 +1,4 @@
+import { type StaticImageData } from "next/image";
 import { Icons } from "@/components/icons";
 
 export type Menu = {
@@ -27,4 +28,12 @@ export type Qualification = {
   title: string;
   subtitle: string;
   date: string;
+};
+
+export type Project = {
+  image: StaticImageData | string;
+  title: string;
+  category?: string;
+  siteUrl?: string;
+  sourceUrl?: string;
 };

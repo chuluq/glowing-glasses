@@ -1,4 +1,9 @@
-import { Content, Qualification } from "@/types";
+import { Content, Project, Qualification } from "@/types";
+import Work1 from "../../public/images/work1.jpg";
+import Work2 from "../../public/images/work2.jpg";
+import Work3 from "../../public/images/work3.jpg";
+import Work4 from "../../public/images/work4.jpg";
+import Work5 from "../../public/images/work5.jpg";
 
 export const aboutInfo: Content[] = [
   {
@@ -117,5 +122,33 @@ export const workInfo: Qualification[] = [
     title: "Front End Developer",
     subtitle: "Carakan - Yogyakarta",
     date: "Feb 2021 - Jun 2021",
+  },
+];
+
+export const projectInfo: Project[] = [
+  {
+    image: Work1,
+    title: "Chuluq",
+    siteUrl: "/",
+  },
+  {
+    image: Work2,
+    title: "Portfolio v2",
+    siteUrl: "https://lookq.netlify.app",
+  },
+  {
+    image: Work3,
+    title: "Portfolio v1",
+    sourceUrl: "https://github.com/chuluq/lookq.com",
+  },
+  {
+    image: Work4,
+    title: "Contact Keeper",
+    sourceUrl: "https://github.com/chuluq/contact-keeper",
+  },
+  {
+    image: Work5,
+    title: "Calculator",
+    siteUrl: "https://calculator-chuluq.netlify.app",
   },
 ];
