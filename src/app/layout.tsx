@@ -5,6 +5,7 @@ import { Poppins } from "next/font/google";
 
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { ScrollUp } from "@/components/scroll-up";
 
 const fontSans = Poppins({ subsets: ["latin"], weight: ["400", "500", "600"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <ScrollUp />
       </body>
     </html>
   );

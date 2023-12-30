@@ -19,6 +19,7 @@ import {
   CalendarDays,
   ArrowRight,
   Mail,
+  ArrowUp,
 } from "lucide-react";
 
 export type Icon = LucideIcon;
@@ -39,6 +40,7 @@ export const Icons = {
   support: Headphones,
   arrowDown: ArrowDown,
   arrowRight: ArrowRight,
+  arrowUp: ArrowUp,
   education: GraduationCap,
   calendar: CalendarDays,
   mail: Mail,
